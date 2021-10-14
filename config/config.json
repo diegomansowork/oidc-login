@@ -1,6 +1,6 @@
 {
   "sessionApi" : {
-    "apikey" : "SESSION_API_KEY_GOES_HERE"
+    "apikey" : "BjLvaEz5V3hhArHBuiAl6TzbpqPn7CYZpn928RxCnfKjrV8R"
   },
   "localUserDb" : "../config/localUserDb.js",
   "authSystem" : "local"
