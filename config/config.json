@@ -1,8 +1,6 @@
 {
-  "authEndpoint" : "https://35.241.34.245.nip.io/oidc-core/oauth2/auth",
   "sessionApi" : {
-    "endpoint": "https://35.241.34.245.nip.io/oidc-session",
-    "apikey" : "BjLvaEz5V3hhArHBuiAl6TzbpqPn7CYZpn928RxCnfKjrV8R"
+    "apikey" : "GWAfSrgGfhegG2GZRpt4uMjtbSLVGm8ZZJEJQfcqtjLMEfPS"
   },
   "localUserDb" : "../config/localUserDb.js",
   "authSystem" : "local"
