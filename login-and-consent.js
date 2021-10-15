@@ -305,7 +305,7 @@ app.post('/validateLoginAndConsent', function (request, response) {
       appLogoUrl    : request.body.appLogoUrl || defaultAppLogo,
       display       : request.body.display,
       login_hint    : request.body.login_hint,
-      errorMessage  : "You must specify a user and a password."
+      errorMessage  : "You must specify a user and a passwordd."
     });
     return;
   }
