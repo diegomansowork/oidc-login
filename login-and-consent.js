@@ -95,7 +95,7 @@ function getGrantType(responseType) {
 function postAuthorization (ctx) {
   return new Promise((resolve, reject) => {
     // the path to the auth endpoint needs to be consistent with the API proxy
-    var authEndpoint = ctx.oidcroot? ctx.oidcroot + '/oauth2/auth' : config.authEndpoint,
+    var authEndpoint = ctx.oidcroot? ctx.oidcroot + '/oidc-core/oauth2/auth' : config.authEndpoint,
         formParams = copyHash(ctx.userInfo),
         options = {
           method: 'POST',
